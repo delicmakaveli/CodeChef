@@ -1,1 +1,1 @@
-My solutions to practice problems in Beginner category.
+My solutions to practice problems from Beginner category.
