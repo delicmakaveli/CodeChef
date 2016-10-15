@@ -14,12 +14,12 @@ public class Main30 {
 		String[] input;
 		int len = 0;
 		int[] nums;
-		
 		int t = Integer.parseInt(bf.readLine());
 		
 		while (t > 0) {
 			len = Integer.parseInt(bf.readLine());
 			input = bf.readLine().split(" ");
+			
 			nums = new int[len];
 			for (int i = 0; i < len; i++) {
 				nums[i] = Integer.parseInt(input[i]);
@@ -35,12 +35,10 @@ public class Main30 {
 					diffMin = diff;
 				}
 			}
-			
 			pw.println(diffMin);
 			pw.flush();
 			t--;
 		}
-		
 		pw.close();
 	}
 }
