@@ -55,7 +55,6 @@ public class Main31 {
 				
 				g--;
 			}
-			bf = null;
 			t--;
 		}
 		pw.close();
