@@ -1,1 +1,1 @@
-Used Counting sort sub-routine to solve. O(n) complexity.
+Used counting sort subroutine to solve in linear time(O(n)).
